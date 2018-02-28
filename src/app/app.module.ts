@@ -13,7 +13,7 @@ import { DinnerComponent } from './menu-bar/dinner/dinner.component';
 import { LunchComponent } from './menu-bar/lunch/lunch.component';
 
 const appRoutes: Routes = [
-  { path: '', component: AppComponent},
+  // { path: '', component: AppComponent},
   { path: 'breakfast', component: BreakfastComponent}, // localhost:4200/breakfast
   { path: 'lunch', component: LunchComponent},
   { path: 'dinner', component: DinnerComponent}
